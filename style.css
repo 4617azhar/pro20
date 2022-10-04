@@ -1,0 +1,126 @@
+#container{
+    display: grid;
+    height: 600px;
+    width: 700px;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-gap: 25px; */
+    background: white;
+    /* grid-auto-rows: auto auto auto; */
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: repeat(6, auto);
+    /* grid-template-rows: repeat(3,1fr); */
+    /* grid-template-rows: 133px 1fr 1fr; */
+    /* grid-template-rows: repeat(3,auto); */
+    /* grid-template-columns: repeat(3,auto); */
+    margin: 20px;
+    row-gap: 5px;
+    column-gap: 5px;
+    padding: 10px;
+    /* justify-items: center; */
+    /* justify-self: center; */
+    /* justify-content: center; */
+
+
+}
+
+/* #container>div{
+    margin: 10px;
+    background: rgb(0, 204, 255);
+    height: 122px;
+    width: 122px;
+} */
+
+#one{
+    background-color: red;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+#two{
+    background-color: purple;
+}
+
+#three{
+    background-color: red;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#four{
+    background-color: blue;
+}
+
+#fourextra{
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+#five{
+    background-color: orange;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#six{
+    background-color: white;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#seven{
+    background-color: orange;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#eight{
+    background-color: purple;
+}
+
+#nine{
+    background-color: orange;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+#ten{
+    background-color: blue;
+
+}
+
+#eleven{
+    background-color: purple;
+}
+
+#twelve{
+    background-color: red;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+#Thirteen{
+    background-color: purple;
+
+}
+
+#Fourteen{
+    background-color: orange;
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+}
+
+#Fifteen{
+    background-color: purple;
+
+}
+
+#Sixteen{
+    background-color: blue;
+}
